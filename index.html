@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <header class="header" id="header">
+        <div class="header__nav-wrapper">
+            <div class="header__logo">
+                <a href="#header" class="header__nav-link"> <img src="img/logo.png" alt="Crepe Lu Logo"
+                        class="header__logo-img"></a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#header" class="header__nav-link">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#about" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Menu</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#contact" class="header__nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__content">
+            <h1 class="header__heading">BEST CREPES<br>
+                IN JÖNKÖPING</h1>
+            <a href="#" class="header__content-btn bubbly-button">Menu</a>
+        </div>
+        <div class="header__lang">
+            <a href="#" class="header__lang-ENG header__lang-text lang__active">ENG</a>
+            <a href="#" class="header__lang-SV header__lang-text">SV</a>
+        </div>
+    </header>
+
+    <section class="slide mountain" id="about">
+        <div class="slide-hero hero-img">
+            <video src="img/video-3.mp4" alt="forest-image" class="slide-hero__img" muted autoplay loop></video>
+            <div class="reveal-img"></div>
+        </div>
+        <div class="slide__description hero-desc">
+            <div class="slide__description-hero title">
+                <h2 class="slide__description-hero-title">Freedom at your <span class="mountain-span">fingertips.</span>
+                </h2>
+                <div class="title-swipe t-swipe1"></div>
+            </div>
+            <p class="slide__description-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+                deserunt voluptate fugit laudantium
+                autem tempora culpa. Dignissimos pariatur aspernatur amet!
+            </p>
+            <a href='./fashion/index.html' class="explore mountain-explore">More</a>
+            <div class="reveal-text"></div>
+        </div>
+    </section>
+
+    <section class="slide fashion">
+        <div class="slide__description hero-desc p-l">
+            <div class="slide__description-hero title">
+                <h2 class="slide__description-hero-title">Freedom at your <span class="fashion-span">fingertips.</span>
+                </h2>
+                <div class="title-swipe t-swipe3"></div>
+            </div>
+            <p class="slide__description-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+                deserunt voluptate fugit laudantium
+                autem tempora culpa. Dignissimos pariatur aspernatur amet!
+            </p>
+            <a href='./fashion/index.html' class="explore fashion-explore">More</a>
+            <div class="reveal-text"></div>
+        </div>
+        <div class="slide-hero hero-img">
+            <video src="img/video-2.mp4" alt="forest-image" class="slide-hero__img" muted autoplay loop></video>
+            <div class="reveal-img"></div>
+        </div>
+    </section>
+
+    <section class="scroll">
+        <div class="scroll__box scroll__heading">
+            <a class="inst" target="_blank" href="https://www.instagram.com/crepe_lu/">
+                <h2 class="scroll__heading">Follow us in <svg enable-background="new 0 0 24 24" height="70"
+                        viewBox="0 0 24 24" width="70" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <linearGradient id="SVGID_1_" gradientTransform="matrix(0 -1.982 -1.844 0 -132.522 -51.077)"
+                            gradientUnits="userSpaceOnUse" x1="-37.106" x2="-26.555" y1="-72.705" y2="-84.047">
+                            <stop offset="0" stop-color="#fd5" />
+                            <stop offset=".5" stop-color="#ff543e" />
+                            <stop offset="1" stop-color="#c837ab" />
+                        </linearGradient>
+                        <path
+                            d="m1.5 1.633c-1.886 1.959-1.5 4.04-1.5 10.362 0 5.25-.916 10.513 3.878 11.752 1.497.385 14.761.385 16.256-.002 1.996-.515 3.62-2.134 3.842-4.957.031-.394.031-13.185-.001-13.587-.236-3.007-2.087-4.74-4.526-5.091-.559-.081-.671-.105-3.539-.11-10.173.005-12.403-.448-14.41 1.633z"
+                            fill="url(#SVGID_1_)" />
+                        <path
+                            d="m11.998 3.139c-3.631 0-7.079-.323-8.396 3.057-.544 1.396-.465 3.209-.465 5.805 0 2.278-.073 4.419.465 5.804 1.314 3.382 4.79 3.058 8.394 3.058 3.477 0 7.062.362 8.395-3.058.545-1.41.465-3.196.465-5.804 0-3.462.191-5.697-1.488-7.375-1.7-1.7-3.999-1.487-7.374-1.487zm-.794 1.597c7.574-.012 8.538-.854 8.006 10.843-.189 4.137-3.339 3.683-7.211 3.683-7.06 0-7.263-.202-7.263-7.265 0-7.145.56-7.257 6.468-7.263zm5.524 1.471c-.587 0-1.063.476-1.063 1.063s.476 1.063 1.063 1.063 1.063-.476 1.063-1.063-.476-1.063-1.063-1.063zm-4.73 1.243c-2.513 0-4.55 2.038-4.55 4.551s2.037 4.55 4.55 4.55 4.549-2.037 4.549-4.55-2.036-4.551-4.549-4.551zm0 1.597c3.905 0 3.91 5.908 0 5.908-3.904 0-3.91-5.908 0-5.908z"
+                            fill="#fff" />
+                    </svg></h2>
+            </a>
+        </div>
+        <div class="scroll__box scroll-1 scroll-crepe-iphone">
+            <a href="https://www.instagram.com/crepe_lu/" target="_blank">
+                <img src="img/iphone.png" alt="scroll" class="scroll__box-img harbi">
+            </a>
+        </div>
+        <div class="scroll__box scroll-2 "><img src="img/crepe-scroll-1.jpg" alt="scroll"
+                class="scroll__box-img scroll-crepe-1"></div>
+        <div class="scroll__box scroll-3 "><img src="img/crepe-scroll-2.jpg" alt="scroll"
+                class="scroll__box-img scroll-crepe-1"></div>
+        <div class="scroll__box scroll-4 "><img src="img/crepe-scroll-3.jpg" alt="scroll"
+                class="scroll__box-img scroll-crepe-1"></div>
+        <div class="scroll__box scroll-5 "><img src="img/crepe-scroll-4.jpg" alt="scroll"
+                class="scroll__box-img scroll-crepe-1"></div>
+        <div class="scroll__box scroll-6 "><img src="img/crepe-scroll-5.jpg" alt="scroll"
+                class="scroll__box-img scroll-crepe-1"></div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__raw">
+                <div class="gallery__img w-70">
+                    <img src="img/gallery-1.jpg" alt="" class="gallery__img-img">
+                </div>
+                <div class="gallery__img w-30">
+                    <img src="img/gallery-2.jpg" alt="" class="gallery__img-img">
+                </div>
+            </div>
+            <div class="gallery__raw">
+                <div class="gallery__img w-30">
+                    <img src="img/gallery-3.jpg" alt="" class="gallery__img-img">
+                </div>
+                <div class="gallery__img w-70">
+                    <img src="img/gallery-4.jpg" alt="" class="gallery__img-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-form" id="contact">
+        <span class="big-circle layer" data-speed="3"></span>
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                    dolorum adipisci recusandae praesentium dicta!
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <img src="img/location.svg" class="icon" alt="" />
+                        <p>Asecs Kompanigatan 36, 553 05 Jönköping</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/email.svg" class="icon" alt="" />
+                        <p>lorem@ipsum.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/phone.svg" class="icon phone" alt="" />
+                        <p>+46 070 792 700 1</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with us</p>
+                    <div class="social-icons">
+
+                        <a href="#">
+                            <svg enable-background="new 0 0 24 24" height="42" viewBox="0 0 24 24" width="42"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <linearGradient id="SVGID_1_"
+                                    gradientTransform="matrix(0 -1.982 -1.844 0 -132.522 -51.077)"
+                                    gradientUnits="userSpaceOnUse" x1="-37.106" x2="-26.555" y1="-72.705" y2="-84.047">
+                                    <stop offset="0" stop-color="#fd5" />
+                                    <stop offset=".5" stop-color="#ff543e" />
+                                    <stop offset="1" stop-color="#c837ab" />
+                                </linearGradient>
+                                <path
+                                    d="m1.5 1.633c-1.886 1.959-1.5 4.04-1.5 10.362 0 5.25-.916 10.513 3.878 11.752 1.497.385 14.761.385 16.256-.002 1.996-.515 3.62-2.134 3.842-4.957.031-.394.031-13.185-.001-13.587-.236-3.007-2.087-4.74-4.526-5.091-.559-.081-.671-.105-3.539-.11-10.173.005-12.403-.448-14.41 1.633z"
+                                    fill="url(#SVGID_1_)" />
+                                <path
+                                    d="m11.998 3.139c-3.631 0-7.079-.323-8.396 3.057-.544 1.396-.465 3.209-.465 5.805 0 2.278-.073 4.419.465 5.804 1.314 3.382 4.79 3.058 8.394 3.058 3.477 0 7.062.362 8.395-3.058.545-1.41.465-3.196.465-5.804 0-3.462.191-5.697-1.488-7.375-1.7-1.7-3.999-1.487-7.374-1.487zm-.794 1.597c7.574-.012 8.538-.854 8.006 10.843-.189 4.137-3.339 3.683-7.211 3.683-7.06 0-7.263-.202-7.263-7.265 0-7.145.56-7.257 6.468-7.263zm5.524 1.471c-.587 0-1.063.476-1.063 1.063s.476 1.063 1.063 1.063 1.063-.476 1.063-1.063-.476-1.063-1.063-1.063zm-4.73 1.243c-2.513 0-4.55 2.038-4.55 4.551s2.037 4.55 4.55 4.55 4.549-2.037 4.549-4.55-2.036-4.551-4.549-4.551zm0 1.597c3.905 0 3.91 5.908 0 5.908-3.904 0-3.91-5.908 0-5.908z"
+                                    fill="#fff" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one layer" data-speed="1"></span>
+                <span class="circle two layer" data-speed="-1"></span>
+
+                <form action="index.html">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" />
+                        <label for="">Name</label>
+                        <span>Name</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" />
+                        <label for="">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send" class="btn explore" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="crepes">
+        <div class="crepes__line rellax" data-rellax-speed="-0.2">
+            <div class="crepe__line-plate">
+                <img src="img/crepe-1.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-2.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-3.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-4.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-5.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-6.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-7.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-8.png" alt="" class="crepe__line-plate-img">
+            </div>
+        </div>
+        <div class="crepes__line rellax" data-rellax-speed="1.68">
+            <div class="crepe__line-plate">
+                <img src="img/crepe-8.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-7.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-6.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-5.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-4.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-3.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-2.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-1.png" alt="" class="crepe__line-plate-img">
+            </div>
+        </div>
+        <div class="crepes__line rellax" data-rellax-speed="-0.2">
+            <div class="crepe__line-plate">
+                <img src="img/crepe-1.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-2.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-7.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-3.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-8.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-6.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-4.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-5.png" alt="" class="crepe__line-plate-img">
+            </div>
+        </div>
+        <div class="crepes__line rellax" data-rellax-speed="1.68">
+            <div class="crepe__line-plate">
+                <img src="img/crepe-1.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-3.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-2.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-5.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-4.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-7.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-6.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-8.png" alt="" class="crepe__line-plate-img">
+            </div>
+        </div>
+        <div class="crepes__line rellax" data-rellax-speed="-0.2">
+            <div class="crepe__line-plate">
+                <img src="img/crepe-8.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-7.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-6.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-5.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-4.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-3.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-2.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-1.png" alt="" class="crepe__line-plate-img">
+            </div>
+        </div>
+        <div class="crepes__line rellax" data-rellax-speed="1.68">
+            <div class="crepe__line-plate">
+                <img src="img/crepe-1.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-2.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-7.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-3.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-8.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-6.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-4.png" alt="" class="crepe__line-plate-img">
+            </div>
+            <div class="crepe__line-plate">
+                <img src="img/crepe-5.png" alt="" class="crepe__line-plate-img">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <img src="img/logo.png" alt="footer-logo Crepe Lu" class="footer__logo-img">
+                </div>
+                <div class="footer__content">
+                    <div class="footer__hours">
+                        <h3 class="footer__hours-heading lang__active">— Open hours</h3>
+                        <div class="footer__hours-text">Monday — Friday 11-19</div>
+                        <div class="footer__hours-text">Sunday 11-17</div>
+                        <div class="footer__hours-text">Saturday 12-16</div>
+                    </div>
+                    <div class="footer__contact">
+                        <h3 class="footer__hours-heading lang__active">— Contact</h3>
+                        <div class="footer__hours-text">+46 070 792 700 1</div>
+                    </div>
+                    <div class="footer__menu">
+                        <nav class="header__nav">
+                            <ul class="header__nav-list footer__menu-flex">
+                                <li class="header__nav-item footer__hours-heading">
+                                    <a href="#" class="header__nav-link footer__hours-heading">Menu</a>
+                                </li>
+                                <li class="header__nav-item footer__hours-text">
+                                    <a href="#" class="header__nav-link footer__hours-text">Home</a>
+                                </li>
+                                <li class="header__nav-item footer__hours-text">
+                                    <a href="#" class="header__nav-link footer__hours-text">About</a>
+                                </li>
+                                <li class="header__nav-item footer__hours-text">
+                                    <a href="#" class="header__nav-link footer__hours-text">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer__content">
+                    <div class="footer__address">
+                        <p class="footer__address-text lang__active">Asecs<br>
+                            Kompanigatan 36, 553 05 Jönköping</p>
+                    </div>
+                    <div class="footer__legal">
+                        <p class="footer__legal-text">© 2021 by Crepe L 'U. All rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+        integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+        crossorigin="anonymous"></script>
+
+    <!-- <script src="https://unpkg.com/@barba/core"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+        integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"
+        integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"
+        integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("mousemove", parallax);
+
+        function parallax(e) {
+            this.querySelectorAll('.layer').forEach(layer => {
+                const speed = layer.getAttribute('data-speed')
+                const x = (window.innerWidth - e.pageX * speed) / 80
+                const y = (window.innerHeight - e.pageY * speed) / 80
+                layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+            })
+        }
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
